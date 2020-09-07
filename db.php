@@ -2,18 +2,19 @@
 
 $servername = "localhost";
 $username = "root";
-$password= "";
-$database = "user";
+$password  = "";
+$database = "projekt";
 
 
-$conn = new mysqli($servername,$username,$password,$database);
+$conn = new mysqli($servername, $username, $password, $database);
 
 if($conn === false){
-
-die("could not connect". $conn->connect_error);
-
+  die("Could not connect!" . $conn->connect_error);
 }
 
 
 
+
+
+$conn
  ?>
